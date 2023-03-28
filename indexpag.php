@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Colombia Chef</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon" href="logo.png" />
+
+</head>
+<header class="second-footer">
+    <p class="nombre">
+      <img src="" alt="">
+      <img src="imagen/colombia.jpg" alt="">
+    </p>
+</header>
+<body>
+  <!-- MAIN WRAPPER -->
+  <div id="wrapper">
+
+    <!-- BANNER WRAPPER -->
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+          <a href="#" id="logo">
+            <img src="imagen/logo.png" alt="">
+          </a>
+
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="#Sobre Nosotros">
+                 Sobre Nosotros
+                </a>
+              </li>
+              <li>
+                <a href="usuario.html">
+                 Usuarios
+                </a>
+              </li>
+              <li>
+                <a href="Contactanos">
+                  Contactanos
+                </a>
+              </li>
+              <li>
+                <a href="Nuestras Tiendas">
+                  Nuestras Tiendas
+                </a>
+              </li>
+              <li>
+                <a href="Lo Nuevo">
+                  Lo Nuevo
+                </a>
+              </li>
+              <li>
+                <a href="../proyectocodif/index.php">
+                  Mi cuenta
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- SLIDER -->
+      <div id="slide-wrap">
+        <section class="slider">
+          <ul class="slider1">
+        
+          <li><img src="imagen/imagen.png" alt=""></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <a name="Sobre Nosotros"></a>
+    <h1>Sobre Nosotros</h1>
+  </br>
+    <table class="tabla1">
+      <tr>
+          <th>Misión</th> 
+          <th>Visión</th>
+         
+      </tr>
+      <tr>
+          <td>Ser la mejor empresa a nivel Colombia en fabricar y comercializar dotacion de cocina, garantizando a 
+            nuestros clientes calidad y compromiso al momento de entregar los productos.</td>
+          <td>Ser lideres en el sector de confeccion, ofrecer a nuestros clientes materiales de calidad a un precio accesible y lograr llegar
+            a diferentes ciudades de Colombia.</td>
+          
+      </tr>
+    </table>
+
+    
+  <footer>
+    
+        <div class="icon-text-text">
+          <a name="Contactenos1"></a>
+          <ul class="social">
+            <li>
+              <a href="https://www.google.com/intl/es-419/gmail/about/">
+                <i class="fa fa-envelope-o"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://es-la.facebook.com/">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/?lang=es">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="https://www.youtube.com/"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+</body>
+</html>
